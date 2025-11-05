@@ -67,7 +67,7 @@ export function Landing() {
 
         {deployed && (
           <DeploymentResult
-            deploymentUrl={`${DEPLOYMENT_URL}/${uploadId}`}
+            deploymentUrl={`${DEPLOYMENT_URL}/${uploadId}/`}
             onCopy={copyToClipboard}
           />
         )}
